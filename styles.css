@@ -1,0 +1,70 @@
+/* Importer la police Roboto depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/*Appliquer la police Roboto à tout le document*/
+body{
+    font-family: 'Roboto';
+}
+header{
+    background-color: #183152;
+    padding: 1px 50px;
+    
+}
+
+
+/* rendre inline la barre de navigation*/
+
+header >ul>li{
+    display: inline;
+    margin: 10px;
+}
+.name{
+font-family: 'Lucida Handwriting',cursive ;    
+    font-size:  100px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+}
+.photo-profil{
+    border-radius: 16px;
+    /* margin-top: -50px; */
+    max-width: 500px;
+}
+.title-about{
+z-index: 100;
+}
+footer{
+    margin-top: 12px;
+    padding:12px 50px;
+    background-color:#183152;
+    color: white;
+    
+}
+.footer-content{
+    display:flex;
+}
+.footer-content ul{
+    list-style-type: none;
+}
+.footer-nav, .footer-media{
+    width: 30%;
+}
+.footer-contact{
+    width: 40%;
+    text-align: center;
+}
+footer a , header a{
+    color: white; 
+    text-decoration: none;
+}
+.footer-contact>ul{
+margin-top:0px ;
+}
+.footer-contact>h4{
+    margin-bottom: 6px;
+    
+}
+.footer-media{
+    text-align: end;
+}
